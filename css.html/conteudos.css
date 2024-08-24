@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 16px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+   width: 25%;
+}
+
+.card-servicos{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 15px #b1fc02fd; 
+    margin-right: 40px;
+}
+.card-servicos h1{
+    font-size: 1.3rem;
+}
+.card-servicos h2{
+    font-size: .8rem;
+    color:#414040aa
+}
+.card-servicos:hover{
+    background-color: #c0d88c;
+}
+.card-servicos button:hover{
+    background-color: #7ea821;
+    cursor: pointer;
+}
+.card-servicos button{
+    background-color: #AEFF03;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.card-servicos img{
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+p{
+    text-align: center;
+    margin-top: 500px;
+    margin-right: 200px;
+}
+footer{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-style: italic;
+}
